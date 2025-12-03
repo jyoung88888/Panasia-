@@ -1,0 +1,32 @@
+names:
+  0: BWTS_0%
+  1: BWTS_10%
+  2: BWTS_30%
+  3: BWTS_70%
+  4: BWTS_90%
+  5: BWTS_100%
+
+path : F:/2.프로젝트/파나시아/2025/model5/
+train: ./dataset/train/images/
+val : ./dataset/train/images/
+test : ./dataset/test/images/
+
+train_transforms:
+    lr0: 0.005
+    lrf: 0.1
+    momentum: 0.937
+    weight_decay: 0.0005
+
+    hsv_h: 0.05
+    hsv_s: 0.7
+    hsv_v: 0.4
+    degrees: 5.0
+    translate: 0.2
+    scale: 0.6
+    shear: 2.0
+    perspective: 0.001
+    flipud: 0.0
+    fliplr: 0.5
+    mosaic: 1.0
+    mixup: 0.2
+    copy_paste: 0.1

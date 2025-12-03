@@ -1,0 +1,30 @@
+names:
+  0: S_1
+  1: S_2
+  2: TC
+  3: BC
+  4: PH
+  5: ME
+  6: DC
+  7: Neck
+
+path : F:/2.프로젝트/파나시아/2025/model3/dataset/
+train: ./train/images/
+val: ./train/images/
+
+
+# 증강 관련
+hsv_h: 0.1       # 색상 변화
+hsv_s: 1         # 채도 변화
+hsv_v: 0.4         # 명도 변화
+degrees: 180       # 회전
+translate: 0.1     # 이동
+scale: 0.5         # 확대/축소
+shear: 5    # 기울이기
+perspective: 0.0   # 원근
+flipud: 1.0        # 수직 뒤집기
+fliplr: 1        # 좌우 뒤집기
+#mosaic: 1.0        # 모자이크
+mixup: 0.2         # MixUp
+cutmix : 1
+copy_paste: 0.0    # Copy-Paste 증강

@@ -1,0 +1,23 @@
+names:
+  0: person
+  1: helmet
+  2: hoist
+  3: forklift
+
+path : F:/2.프로젝트/파나시아/2025/model1/dataset/
+train: ./train3/images/
+val: ./valid3/images/
+
+
+# 증강 관련
+#mosaic: True
+#mixup: 0.15
+#copy_paste: True
+#scale: 0.7
+#degrees: 10
+#shear: 0.2
+#translate: 0.1
+#hsv_h: 0.015
+#hsv_s: 0.6
+#hsv_v: 0.4
+#fliplr: 0.5

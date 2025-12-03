@@ -1,0 +1,5 @@
+names: ['person', 'helmet', 'no helmet','forklift','hoist']
+nc : 5 
+path : F:/2.프로젝트/파나시아/2025/model1/dataset/test1_resize/
+train : ./images
+val : ./images

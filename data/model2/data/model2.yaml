@@ -1,0 +1,10 @@
+names:
+  0: ladder
+  1: truck
+  2: lift
+  3: belt 
+  4: no_belt
+
+path : F:/2.프로젝트/파나시아/2025/model2/dataset/
+train: ./train/images/
+val: ./train/images/

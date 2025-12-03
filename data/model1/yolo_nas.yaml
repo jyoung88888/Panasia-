@@ -1,0 +1,16 @@
+names:
+    - person
+    - helmet
+    - no_helmet
+    - forklift
+    - hoist
+
+
+Dir : F:/1.thub/dataset/
+images:
+  train: train/images/
+  val: valid/images/
+  
+labels:
+  train: train/labels/
+  val: valid/labels/
