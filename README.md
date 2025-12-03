@@ -174,17 +174,6 @@ jupyter notebook src/Augmentation.ipynb
 
 ---
 
-## 요구 사항
-
-```
-ultralytics>=8.0.0
-opencv-python>=4.8.0
-numpy>=1.24.0
-torch>=2.0.0
-torchvision>=0.15.0
-pyyaml>=6.0
-```
-
 ### 설치
 
 ```bash
@@ -233,4 +222,4 @@ pip install ultralytics opencv-python numpy torch torchvision pyyaml
 
 이 프로젝트는 내부 사용 목적으로 개발되었습니다.
 
-# Panasia-
+# Panasia
